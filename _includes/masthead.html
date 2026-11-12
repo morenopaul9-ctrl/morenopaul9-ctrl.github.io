@@ -1,4 +1,11 @@
+
 {% include base_path %}
+
+{% assign current_navigation = site.data.navigation %}
+{% if page.url contains '/es/' %}
+  {% assign current_navigation = site.data.navigation_es %}
+{% endif %}
+
 <div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -8,7 +15,7 @@
           <li class="masthead__menu-item masthead__menu-item--lg persist {% if page.url == '/' or page.url == '/index.html' %}selected{% endif %}">
             <a href="{{ base_path }}/">{{ site.title }}</a>
           </li>
-          {% for link in site.data.navigation.main %}
+          {% for link in current_navigation.main %}
             {% if link.url contains 'http' %}
               {% assign domain = '' %}
             {% else %}

@@ -7,6 +7,9 @@
 # NOTE that only one of the CV options should be selected, the first is for the
 #      Markdown formatted page while the second is generated using JSON.
 
+
+# Main navigation
+
 main:
   - title: "About"
     url: /
@@ -18,9 +21,8 @@ main:
     url: /teaching/
   - title: "Academic Service"
     url: /academic-service/
-  - title: "Education"
-    url: /education/
   - title: "CV"
     url: /cv/
-  - title: "Español"
+  - title: "ES"
     url: /es/
+
