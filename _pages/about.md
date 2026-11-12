@@ -1,3 +1,4 @@
+
 ---
 permalink: /
 title: "About"
@@ -6,14 +7,16 @@ redirect_from:
   - /about/
 ---
 
-I am a PhD candidate in Political Science at the **Center for Research and Teaching in Economics (CIDE)** in Mexico City. My research examines the political consequences of economic globalization, with a particular focus on foreign direct investment (FDI), distributional outcomes, and the electoral survival of incumbent parties.
+I am a PhD candidate in Political Science at the **Center for Research and Teaching in Economics (CIDE)** in Mexico City. My research focuses on the intersection of **international political economy and comparative politics**, particularly on the domestic political consequences of economic globalization.
 
-My doctoral dissertation, *Foreign Direct Investment: Distributional Consequences and the Electoral Survival of Incumbent Parties*, investigates how different forms of FDI shape local economic conditions and influence the electoral prospects of incumbent parties. My broader research interests include international political economy, comparative politics, political economy of development, and electoral behavior.
+My doctoral dissertation, *Foreign Direct Investment: Distributional Consequences and the Electoral Survival of Incumbent Parties*, examines how foreign direct investment (FDI) affects local economic conditions and distributional outcomes, and how these changes shape the electoral prospects of incumbent parties. I am particularly interested in the political consequences of productive investment, including its effects on employment, public spending, and voters' evaluations of incumbent governments.
+
+My broader research interests include international political economy, comparative political economy, political economy of development, and electoral behavior.
 
 I hold an MA in International Economic Relations and Cooperation from the University of Guadalajara and a bachelor's degree in Industrial Engineering from the Instituto Tecnológico de La Piedad.
 
-I also serve as **Assistant Editor of [*Política y Gobierno*](https://www.politicaygobierno.cide.edu/)**, an academic journal published by CIDE.
+In addition to my academic research, I serve as **Assistant Editor** of [*Política y Gobierno*](https://www.politicaygobierno.cide.edu/), an academic journal published by CIDE.
 
-**Research interests:** Foreign Direct Investment · International Political Economy · Comparative Politics · Electoral Politics · Political Economy of Globalization
+**Research interests:** International Political Economy · Comparative Politics · Political Economy of Development · Electoral Behavior · Foreign Direct Investment
 
 [Research](/research/) · [Publications](/publications/) · [Download my CV](/cv/)
