@@ -23,11 +23,11 @@ You can also find my academic publications on
       {% if post.category != category[0] %}
         {% continue %}
       {% endif %}
-      {% unless title_shown %}
-        <h2>{{ category[1].title }}</h2>
-        <hr />
-        {% assign title_shown = true %}
-      {% endunless %}
+    {% unless title_shown %}
+<h2>{{ category_title }}</h2>
+<hr />
+      {% assign title_shown = true %}
+    {% endunless %}
       {% include archive-single.html %}
     {% endfor %}
   {% endfor %}

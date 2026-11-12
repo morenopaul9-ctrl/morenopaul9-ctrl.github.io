@@ -1,18 +1,33 @@
 ---
-permalink: /es/publicaciones/
+layout: archive
 title: "Publicaciones"
+permalink: /es/publicaciones/
 author_profile: true
 ---
 
-* Artículos de investigación:
+Mi trabajo académico comprende investigaciones en economía política internacional y política comparada, así como contribuciones a la divulgación histórica. Esta página reúne artículos de investigación, tesis académicas y trabajos de historia y divulgación.
 
-    *   Moreno Plascencia, Ángel Paúl & Espinosa Ramírez, Rafael Salvador. 2018. “Effects of Foreign Direct Investment on Productivity of Latin American Countries (1990-2012)”. Economía, Teoría y Práctica, (49), pp. 7-36. http://dx.doi.org/10.24275/ETYPUAM/NE/492018
+{% include base_path %}
 
-    * Moreno Plascencia, Ángel Paúl. 2021. “Caracterización de los Rasgos de Personalidad como Determinante del Desempeño Académico Universitario; Análisis de Caso” (“Characterization on Personality Traits as Determinants of Academic Performance in Undergraduate Studies, A Case Analysis”, In Spanish). Revista Politécnica de Aguascalientes, (1), pp. 44-49. https://revistapolitecnicaags.upa.edu.mx/wp-content/uploads/2022/10/ED117.pdf
+{% assign categories_es = "articles,Artículos de investigación|history,Historia y divulgación|theses,Tesis y disertaciones" | split: "|" %}
 
-* Artículos de divulgación:
+{% for category_entry in categories_es %}
+  {% assign category_parts = category_entry | split: "," %}
+  {% assign category_key = category_parts[0] %}
+  {% assign category_title = category_parts[1] %}
+  {% assign title_shown = false %}
 
-    *   Moreno, Paúl. 2026, Abril 13. “Cooperación Internacional Clerical y el Seminario de Montezuma”. Blog Atarraya. https://blogatarraya.com/2026/04/13/cooperacion-internacional-clerical-y-el-seminario-de-montezuma/ 
-    
-    * Moreno, Paúl. 2026. “Cooperación Internacional Clerical y el Seminario de Montezuma”. Atarraya, Nuestras Historias, (30), pp. 15-16. 
-    https://atarrayahistoria.com/2026/08/21/numero-30/
+  {% for post in site.publications reversed %}
+    {% if post.category != category_key %}
+      {% continue %}
+    {% endif %}
+
+    {% unless title_shown %}
+<h2>{{ category_title }}</h2>
+<hr />
+      {% assign title_shown = true %}
+    {% endunless %}
+
+    {% include archive-single.html %}
+  {% endfor %}
+{% endfor %}

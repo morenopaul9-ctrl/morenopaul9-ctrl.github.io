@@ -1,0 +1,15 @@
+main:
+  - title: "Inicio"
+    url: /es/
+  - title: "Investigación"
+    url: /es/investigacion/
+  - title: "Publicaciones"
+    url: /es/publicaciones/
+  - title: "Docencia"
+    url: /es/docencia/
+  - title: "Servicio académico"
+    url: /es/servicio-academico/
+  - title: "Formación"
+    url: /es/formacion/
+  - title: "English"
+    url: /
