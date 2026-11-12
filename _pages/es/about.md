@@ -14,4 +14,4 @@ Me desempeño como **Editor Asistente de [*Política y Gobierno*](https://www.po
 
 **Intereses:** Inversión Extranjera Directa · Economía Política Internacional · Política Comparativa · Política Electoral · Economía Política de la Globalización
 
-[Research](/research/) · [Publications](/publications/) · [Download my CV](/cv/)
+[Investigación](/es/investigacion/) · [Publicaciones](/es/publicaciones/) · [Descarga mi CV](/es/formacion/)

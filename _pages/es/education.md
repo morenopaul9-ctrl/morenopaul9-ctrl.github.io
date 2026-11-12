@@ -4,6 +4,11 @@ title: "Formación académica"
 author_profile: true
 ---
 
+Download my curriculum vitae:
+
+[Download CV (PDF)](/files/CV_PM_ES.pdf){: .btn .btn--primary }
+
+
 * Doctorado: Ciencia Política (en desarrollo) 2024-2028
     * Centro de Investigación y Docencia Económicas, CIDE
     * Ciudad de México, México 
@@ -16,7 +21,6 @@ author_profile: true
     * Guadalajara, México
     * Tesis: Effects of foreign direct investment in the productivity of latin american countries
     * Director: Dr. Rafael Salvador Espinosa Ramírez
-
 
 * Licenciatura: Ingeniería Industrial, 2012
     * Tecnológico Nacional de México: Instituto Tecnológico de La Piedad 
